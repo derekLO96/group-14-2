@@ -20,7 +20,7 @@
 	\vspace{12pt} % Whitespace
 }
 
-\author{\LARGE Group Members: \\Derek Lopes Oliveira\\Kiara Yost\\Dhyan Suresh\\}
+\author{\LARGE Group Members: \\Derek Lopes Oliveira\\Kiara Yost\\Dhyan Suresh\\Gregory Aguila}
 
 
 \date{\normalsize\today} % Today's date (\today) or a custom date
@@ -95,7 +95,20 @@ T(8000) = c(8000^2)
 \]
 This resulted in a runtime of approximately $128 \text{ ms}$. Working through the full expression clarified why a simple proportional scale-down would have been incorrect. From this problem we are understood the best method to approch our meetings. We saw the most brnfit when one of us shared our screen and walked through each step so the group could verify the calculations together. Whenever arithmetic uncertainty came up, we checked our work using our notes and online tools. This collaborative process helped solidify our understanding of hard topics and problems.
 
+\item Meeting 3: 12/04/2025:\\
+	During our last meeting, we reviewed material taught after the midterm. After some discussion on what we were most interested in reviewing, we agreed to cover sorting algorithms, as they cover a relatively large percentage of the final exam.
 
+We began with a medium difficulty problem on FEPrep.net, "Identify Sorting Algorithm from First Pass".The problem was structured into three parts, with parts A and B featuring diagrams that showcased an initial array followed by the transformed array after one pass of an unspecified sorting algorithm. The problem asked us to indicate which sorting algorithm is being applied, and give that algorithm’s worst-case runtime using big-oh notation.
+
+After refreshing ourselves on all the major sorting algorithms, we easily identified the algorithm in part A as selection sort, a method that finds the smallest element and swaps it with the first element. In part B, we recognized bubble sort, which operates by repeatedly pushing the largest element to the end of the array with each pass. However, many of us couldn't immediately recall the worst-case runtime for these algorithms. After some discussion, we collectively remembered that both selection sort and bubble sort exhibit a worst-case runtime of O(n²). Moreover, we took the opportunity to compare the worst-case runtimes of all the major sorting algorithms. We noted that while bubble sort, selection sort, and insertion sort each display O(n²) complexity, more efficient algorithms such as merge sort and quick sort have a better performance with O(n log n) runtimes. 
+
+Part C of the problem asked to give a recurrence relation that represents the runtime for a Merge Sort of n items. This stumped us, as none of us could readily recall the appropriate relation. As a result, we reviewed previous class notes to determine how to find the proper recurrence relation for merge sort. Eventually, we discovered the proper relation to be T(n) = 2T(n/2) + O(n).
+
+Because of this problem, we were able to review the behavior and worst-case runtimes for all the major sorting algorithms. Additionally, we deepened our understanding of merge sort’s recurrence relation.
+
+Next, we completed another medium difficulty problem on FEPrep.net, "Median of Three for Quick Sort Partitioning". In this problem, we were tasked to write a function that takes in an array, a low index to the array, and a high index to the array, designating a subarray, generates three random indexes in between low and high inclusive (indexA, indexB and indexC), and returns the corresponding index (either indexA, indexB, or indexC) to the middle value of the three designated values array[indexA], array[indexB], or array[indexC]. While we initially struggled to devise a suitable approach, we collaboratively brainstormed potential solutions. We decided to leverage the provided randInt function (which returns a random integer in between a and b, inclusive) to create the random indexA, indexB, and indexC within the subarray. Independently, we wrote our own solutions for determining the middle value of these three indices. Many of us struggled with how to approach this problem, but after sharing our code snippets and discussing our approaches, we arrived at a functional solution involving a series of if-else comparisons to pinpoint the median index.
+
+Because of this problem, we better understood the purpose of using a median of three for quick sort partitioning and how to determine this median.
 \end{itemize}
 
 %--------------------------------------------------------------------------------------------
@@ -111,28 +124,74 @@ The following are tools we used to solve some problems and brainstorm ideas.
 
 %---------------------------------------------------------------------------------------------
 \section{Summary}
-\paragraph{-Meeting 1: Overall, this meeting established our foundation and expectations for how we will operate as a group moving forward. 
+
+\begin{itemize}
+	\item Meeting 1: 11/08/25:
+	Overall, this meeting established our foundation and expectations for how we will operate as a group moving forward. 
 By beginning with a quick review problem and then working collaboratively through the more challenging questions, we set a clear norm for future meetings: start with brief confidence-building review, 
 then transition into deeper analysis with shared screens, open discussion, and collective verification of each step. 
 This session helped us better understand algorithm analysis and demonstrated the value of 
 walking through solutions together rather than working in isolation. The team helped one another through arithmetic, referencing notes, and 
-checking calculations—gave us a structure that will guide our next sessions and ensured that each member feels supported.}
+checking calculations—gave us a structure that will guide our next sessions and ensured that each member feels supported.
 
+	\item \paragraph{Meeting 2: 12/01/25: In this meeting we talked about summations and we worked through a couple of different problemes regarding 
+summations. We first began by going through some question through the website FEPrep.net while checking class notes and the professor's 
+notes on the COP website.
+Through the website the team collaborated to work through several summation problems, focusing on recognizing patterns, applying summation rules, and simplifying expressions. For example, we reviewed basic formulas such as
+\[
+\sum_{i=1}^{n} i = \frac{n(n+1)}{2}
+\quad\text{and}\quad
+\sum_{i=1}^{n} i^2 = \frac{n(n+1)(2n+1)}{6}.
+\]
+We also practiced breaking down more complex expressions. For instance, in a problem like
+\[
+\sum_{k=1}^{n} (3k + 2),
+\]
+we rewrote it using linearity of summation:
+\[
+\sum_{k=1}^{n} 3k + \sum_{k=1}^{n} 2
+= 3\left(\frac{n(n+1)}{2}\right) + 2n.
+\]
+This approach helped us understand how to breakdown these problems and helped us better understand the steps needed to get to the final result.
+}
+
+	\item Meeting 3: 12/04/2025:
+	During our last meeting, we reviewed material taught after the midterm. After some discussion on what we were most interested in reviewing, we agreed to cover sorting algorithms, as they cover a relatively large percentage of the final exam.
+
+We began with a medium difficulty problem on FEPrep.net, "Identify Sorting Algorithm from First Pass".The problem was structured into three parts, with parts A and B featuring diagrams that showcased an initial array followed by the transformed array after one pass of an unspecified sorting algorithm. The problem asked us to indicate which sorting algorithm is being applied, and give that algorithm’s worst-case runtime using big-oh notation.
+
+After refreshing ourselves on all the major sorting algorithms, we easily identified the algorithm in part A as selection sort, a method that finds the smallest element and swaps it with the first element. In part B, we recognized bubble sort, which operates by repeatedly pushing the largest element to the end of the array with each pass. However, many of us couldn't immediately recall the worst-case runtime for these algorithms. After some discussion, we collectively remembered that both selection sort and bubble sort exhibit a worst-case runtime of O(n²). Moreover, we took the opportunity to compare the worst-case runtimes of all the major sorting algorithms. We noted that while bubble sort, selection sort, and insertion sort each display O(n²) complexity, more efficient algorithms such as merge sort and quick sort have a better performance with O(n log n) runtimes. 
+
+Part C of the problem asked to give a recurrence relation that represents the runtime for a Merge Sort of n items. This stumped us, as none of us could readily recall the appropriate relation. As a result, we reviewed previous class notes to determine how to find the proper recurrence relation for merge sort. Eventually, we discovered the proper relation to be T(n) = 2T(n/2) + O(n).
+
+Because of this problem, we were able to review the behavior and worst-case runtimes for all the major sorting algorithms. Additionally, we deepened our understanding of merge sort’s recurrence relation.
+
+Next, we completed another medium difficulty problem on FEPrep.net, "Median of Three for Quick Sort Partitioning". In this problem, we were tasked to write a function that takes in an array, a low index to the array, and a high index to the array, designating a subarray, generates three random indexes in between low and high inclusive (indexA, indexB and indexC), and returns the corresponding index (either indexA, indexB, or indexC) to the middle value of the three designated values array[indexA], array[indexB], or array[indexC]. While we initially struggled to devise a suitable approach, we collaboratively brainstormed potential solutions. We decided to leverage the provided randInt function (which returns a random integer in between a and b, inclusive) to create the random indexA, indexB, and indexC within the subarray. Independently, we wrote our own solutions for determining the middle value of these three indices. Many of us struggled with how to approach this problem, but after sharing our code snippets and discussing our approaches, we arrived at a functional solution involving a series of if-else comparisons to pinpoint the median index.
+
+Because of this problem, we better understood the purpose of using a median of three for quick sort partitioning and how to determine this median.
+
+\end{itemize}
 %----------------------------------------------------------------------------------------------------
 \section{Key Discoveries}
-\paragraph{This will be anything notable that we discovered as a group. Something we didn't know but found out together.}
+\begin{itemize}
+	\item Resources and Tools: We discovered the value of various tools and resources, such as FEPrep.net, previous exams, and class notes, which provided valuable practice and insights, helping us reinforce learned concepts and identify weak areas. FePrep.net is the most notable resource, as it provided us with a plethora of example problems to exercise our comprehension of the material.
+	\item: \paragraph{Collaborative Problem-Solving: We discovered that brainstorming sessions yielded more innovative solutions when everyone shared their perspectives openly.}
+\end{itemize}
 
 %--------------------------------------------------------------------------------------------------------------------------------
 \section{Member's Reflection}
-\paragraph{Here is where you guys come in. Each will write a reflection on what you guys thought about this group experiment and how your knowledge
-grew in response to our work together as a team.}
 \subsection{Derek Lopes Oliveira}
-\paragraph{Thoughts?}
+\paragraph{AT first I was sent to a group who didn't really talk apart from three different ocassions. I was thinking that this was a failed experiment and all my hope was lost on this project.
+Luckily, just before decemeber started, I was transfered to the hardworking group that I am now and I trully understand the purpose of this excercise. Together we worked through problemas and overcame
+challenges that we would otherwise not have solved it on our own. The collaboration with this team has showed me the possibilities of team work going into my field of computer science and hope 
+to one day have a great team like this one again. }
 \subsection{Kiara Yost}
-\paragraph{Thoughts?}
+\paragraph{I found collaborating with my fellow group members to be enriching for my learning experience. From the beginning, I took the initiative to help my peers grasp concepts in which I felt confident. In return, my classmates shared their own areas of expertise, which helped to strengthen my understanding of topics I found more challenging. Through our discussions, we not only filled in each other's knowledge gaps but also cultivated a sense of camaraderie that made the learning process enjoyable. Collectively, we built a solid foundation by leveraging our diverse strengths, ensuring that we felt well-prepared for our final exam.}
 \subsection{Dhyan Suresh}
 \paragraph{The group study sessions were incredibly beneficial for my understanding of the course material. It was very relevant early on that we identified our weak points and focused our efforts there. The collaborative environment allowed 
-us to help on another by allowing each member to take lead when topics they were strong in came up. Having more time with topics beyond the classroom provided a deeper understanding and helped solidify concepts that were previously unclear. 
+us to help one another by allowing each member to take the lead when topics they were strong in came up. Having more time with topics beyond the classroom provided a deeper understanding and helped solidify concepts that were previously unclear. 
 Overall, the group study sessions were a valuable experience that enhanced my learning and prepared me well for the final exam.}
+\subsection{Gregory Aguila}
+\paragraph{This group experiment has helped me understand my weaknesses with topics such as AVL Trees and summations. Working in the group also helped me understand how to tackle some of the word problems that may be on the Final Exam. We mostly utilized Foundation Exam questions so we are better prepared with some of the harder concepts.}
 
 \end{document}
