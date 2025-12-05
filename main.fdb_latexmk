@@ -1,7 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1764910723.44005 "/home/dereko/code/UCF-Group-14-2/main.tex" "main.pdf" "main" 1764910725.22275 0
-  "/home/dereko/code/UCF-Group-14-2/main.tex" 1764910723.17427 17938 402dc6af267c3395b74133f75b6533c3 ""
+["pdflatex"] 1764911357.07693 "/home/dereko/code/UCF-Group-14-2/main.tex" "main.pdf" "main" 1764911358.79746 0
+  "/home/dereko/code/UCF-Group-14-2/main.tex" 1764911356.81356 14886 104f75ed3432998fd3ba7e5c16f0330e ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm1095.tfm" 1136768653 3584 929cdff2b7a8c11bd4d49fd68cb0ae70 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecss1095.tfm" 1136768653 3584 8ece407347b270c252c46fdfaef5a9ef ""
@@ -11,6 +12,7 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsx1200.tfm" 1136768653 3584 36f697a6b99f29aad1ddddcfadf7a969 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsx1440.tfm" 1136768653 3584 9bd2baa3a21be3460ad52867ca0084f1 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsx2074.tfm" 1136768653 3584 5ba4d7d245f2ced66081d269e8c9a284 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ectt1095.tfm" 1136768653 1536 a988bfe554c1f79514bd46d13c3c64ce ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1246382020 928 2dc8d444221b7a635bb58038579b861a ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1246382020 908 2921f8a10601f252058503cc6570e581 ""
@@ -39,6 +41,7 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb" 1164221255 36737 6946087c3bf3ef810605d9989b3e7a11 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb" 1164221255 36507 bc28f9f0cdba50a8a348a6e4dc8a5378 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb" 1164221255 37756 112837e95d30cb64c320437ea63bd4d6 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb" 1215737283 169670 48d12e69c9a3b23c81f6d703ccbd4554 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb" 1575236847 35376 a07df24b37ec077fc9f917f37a80f694 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb" 1575236847 22238 87e9c1bfb269d3da7d96d9f4df8849d2 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/vf/public/fourier/futb8t.vf" 1136768653 2168 d2ac693e07cd79dbc2b914caee3e8df0 ""
@@ -113,8 +116,8 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1758989610 5528139 daf1353d2d3d7fed9df2ebbf1b26218e ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1758989654 3628774 22355f5a7da369a7f3a7020b2e06b19a ""
   "/usr/local/texlive/2025/texmf.cnf" 1758989602.32272 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "main.aux" 1764910725.11428 6868 3c30954e14bef34d227c98dcbf4192db "pdflatex"
-  "main.tex" 1764910723.17427 17938 402dc6af267c3395b74133f75b6533c3 ""
+  "main.aux" 1764911358.68611 5622 208b7a2c71aa67a7c8fcdc3662e4fd17 "pdflatex"
+  "main.tex" 1764911356.81356 14886 104f75ed3432998fd3ba7e5c16f0330e ""
   "structure.tex" 1763054170.61159 3604 372582210412339e9106bd0587480567 ""
   (generated)
   "main.aux"
