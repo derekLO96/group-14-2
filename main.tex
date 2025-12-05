@@ -67,7 +67,16 @@
 \paragraph{On 11/06/2025 our group was restructured to combine several people from other groups that had more than 80\% of their members drop.
 	In this rececitation we talked about Tries and organized a way for our first ever meeting our of recitation.}
 \subsection{Outside of Recitation}
-\paragraph{Our group discussed big O runtime and the best practices to solve these kinds of problems. (more details to come)}
+\paragraph{Meeting 3: 12/4/2025
+During our last meeting, we reviewed material taught after the midterm. After some discussion on what we were most interested in reviewing, we agreed to cover sorting algorithms, as they cover a relatively large percentage of the final exam.
+
+We began with a medium difficulty problem on FEPrep.net, "Identify Sorting Algorithm from First Pass".The problem was structured into three parts, with parts A and B featuring diagrams that showcased an initial array followed by the transformed array after one pass of an unspecified sorting algorithm. The problem asked us to indicate which sorting algorithm is being applied, and give that algorithm’s worst-case runtime using big-oh notation.
+After refreshing ourselves on all the major sorting algorithms, we easily identified the algorithm in part A as selection sort, a method that finds the smallest element and swaps it with the first element. In part B, we recognized bubble sort, which operates by repeatedly pushing the largest element to the end of the array with each pass. However, many of us couldn't immediately recall the worst-case runtime for these algorithms. After some discussion, we collectively remembered that both selection sort and bubble sort exhibit a worst-case runtime of O(n²). Moreover, we took the opportunity to compare the worst-case runtimes of all the major sorting algorithms. We noted that while bubble sort, selection sort, and insertion sort each display O(n²) complexity, more efficient algorithms such as merge sort and quick sort have a better performance with O(n log n) runtimes. 
+Part C of the problem asked to give a recurrence relation that represents the runtime for a Merge Sort of n items. This stumped us, as none of us could readily recall the appropriate relation. As a result, we reviewed previous class notes to determine how to find the proper recurrence relation for merge sort. Eventually, we discovered the proper relation to be T(n) = 2T(n/2) + O(n).
+Because of this problem, we were able to review the behavior and worst-case runtimes for all the major sorting algorithms. Additionally, we deepened our understanding of merge sort’s recurrence relation.
+
+Next, we completed another medium difficulty problem on FEPrep.net, "Median of Three for Quick Sort Partitioning". In this problem, we were tasked to write a function that takes in an array, a low index to the array, and a high index to the array, designating a subarray, generates three random indexes in between low and high inclusive (indexA, indexB and indexC), and returns the corresponding index (either indexA, indexB, or indexC) to the middle value of the three designated values array[indexA], array[indexB], or array[indexC]. While we initially struggled to devise a suitable approach, we collaboratively brainstormed potential solutions. We decided to leverage the provided randInt function (which returns a random integer in between a and b, inclusive) to create the random indexA, indexB, and indexC within the subarray. Independently, we wrote our own solutions for determining the middle value of these three indices. Many of us struggled with how to approach this problem, but after sharing our code snippets and discussing our approaches, we arrived at a functional solution involving a series of if-else comparisons to pinpoint the median index. Because of this problem, we better understood the purpose of using a median of three for quick sort partitioning and how to determine this median.
+}
 
 %--------------------------------------------------------------------------------------------
 
@@ -80,7 +89,8 @@ The following are tools we used to solve some problems and brainstorm ideas.
 
 %---------------------------------------------------------------------------------------------
 \section{Summary}
-\paragraph{Here we will summarize what we went through, the discoveries we found, the teamwork that happened and how we met outside of recitation}
+\paragraph{Meeting 3: In our meeting, we focused on sorting algorithms, identifying selection sort and bubble sort from a problem on FEPrep.net, and recalling their worst-case runtime of O(n²) compared to more efficient algorithms like merge sort and quick sort. We learned the recurrence relation for merge sort, T(n) = 2T(n/2) + O(n), and tackled a problem on selecting the median of three indices for quick sort partitioning, ultimately collaborating to devise a functional solution. Through these discussions and problem-solving exercises, we deepened our understanding of sorting algorithms, their theoretical foundations, and practical applications in coding. This enhanced knowledge equipped us with the tools to make more informed decisions when implementing sorting functions in various programming contexts.
+}
 
 %----------------------------------------------------------------------------------------------------
 \section{Key Discoveries}
@@ -93,7 +103,7 @@ grew in response to our work together as a team.}
 \subsection{Derek Lopes Oliveira}
 \paragraph{Thoughts?}
 \subsection{Kiara Yost}
-\paragraph{Thoughts?}
+\paragraph{I found collaborating with my fellow group members to be enriching for my learning experience. From the beginning, I took the initiative to help my peers grasp concepts in which I felt confident. In return, my classmates shared their own areas of expertise, which helped to strengthen my understanding of topics I found more challenging. Through our discussions, we not only filled in each other's knowledge gaps but also cultivated a sense of camaraderie that made the learning process enjoyable. Collectively, we built a solid foundation by leveraging our diverse strengths, ensuring that we felt well-prepared for our final exam.}
 \subsection{Dhyan Suresh}
 \paragraph{Thoughts?}
 
